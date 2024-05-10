@@ -55,6 +55,7 @@ TEST(DbTest, DISABLED_BasicTest) {
   }
 
   datas = db.QueryData(10);
+
   EXPECT_EQ(datas.size(), 10);
 
   // remove db_path

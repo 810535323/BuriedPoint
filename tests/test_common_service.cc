@@ -34,4 +34,10 @@ TEST(CommonServiceTest, BasicTest) {
   EXPECT_GT(common_service.device_id.size(), 0);
   EXPECT_GT(common_service.buried_version.size(), 0);
   EXPECT_GT(common_service.lifecycle_id.size(), 0);
+  std::cout  <<  " " << common_service.system_version 
+  << " " << common_service.device_name 
+  << " "  << common_service.device_id 
+  << " "  << common_service.buried_version 
+  << " "  << common_service.lifecycle_id 
+  << std::endl;
 }

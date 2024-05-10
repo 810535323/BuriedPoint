@@ -7,8 +7,8 @@ project(${PROJECT_NAME} VERSION 1.1.1.1)
 option(BUILD_BURIED_SHARED_LIBS "build shared library" ON)
 option(BUILD_BURIED_STATIC_LIBS "build static library" ON)
 
-option(BUILD_BURIED_EXAMPLES "build examples" OFF)
-option(BUILD_BURIED_TEST "build unittest" OFF)
+option(BUILD_BURIED_EXAMPLES "build examples" ON)
+option(BUILD_BURIED_TEST "build unittest" ON)
 
 option(BUILD_BURIED_FOR_MT "build for /MT" OFF)
 
